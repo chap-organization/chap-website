@@ -1,2 +1,2 @@
 # chap-website
-Chap Website Repo
+Repository for CHAP's website.
