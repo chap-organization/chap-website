@@ -20,7 +20,7 @@ npm run dev
 
 -public: (images and assets, reference with /) directory name does matter
 
--styles: (css styles) directory name does matter
+-styles: (css styles) directory name does not matter
 
 
 
