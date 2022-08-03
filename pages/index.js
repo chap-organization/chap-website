@@ -1,6 +1,6 @@
 import Head from 'next/head'
 
-import Hello from '../components/Home/Hello';
+import LoadingPage from '../components/LoadingPage/Loading';
 
 export default function Home() {
   return (
@@ -12,7 +12,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <Hello /> 
+        <LoadingPage /> 
       </main>
 
     </div>
