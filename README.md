@@ -14,12 +14,13 @@ npm run dev
 
 ### Directory Layout
 
--components: (React components) Not nextjs required
+-components: (React components) directory name does not matter
 
--pages: (autoroutes to /"filename", also react components) Nextjs required
--public: (images and assets, reference with /)
+-pages: (autoroutes to /"filename", also react components) directory name does matter
 
--styles: (css styles) Nextjs required
+-public: (images and assets, reference with /) directory name does matter
+
+-styles: (css styles) directory name does matter
 
 
 
