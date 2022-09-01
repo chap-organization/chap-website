@@ -10,7 +10,7 @@ Node.js, NPM
 
 To start a development server run the following command:
 
-npm run dev
+`npm run dev`
 
 ### Directory Layout
 
