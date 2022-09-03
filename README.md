@@ -8,6 +8,10 @@ Node.js, NPM
 
 ### Development
 
+Make sure the proper node_modules are installed my running the following command:
+
+`npm install`
+
 To start a development server run the following command:
 
 `npm run dev`
