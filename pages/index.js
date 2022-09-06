@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 
 import Hello from '../components/Hello';
+import Icon from '../components/general/TerminalIcon';
 
 export default function Home() {
   return (
@@ -13,8 +14,10 @@ export default function Home() {
       </Head>
 
       <main>
-        <div>SUUUUUUUU</div>
-        <Hello />
+        <div><Icon /></div>
+        <div>&gt;_</div>
+        {/* <div><Hello /></div> */}
+        
         
       </main>
 
