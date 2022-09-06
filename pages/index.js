@@ -1,7 +1,7 @@
 import Head from 'next/head'
 
 import Hello from '../components/Home/Hello';
-
+import Circles from "../components/Home/SidebarCircles";
 export default function Home() {
   return (
     <div>
@@ -13,6 +13,7 @@ export default function Home() {
 
       <main>
         <Hello /> 
+        <Circles />
       </main>
 
     </div>

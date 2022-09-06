@@ -1,0 +1,28 @@
+.red_circle {
+    display: flex;
+    position: relative;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    background-color: rgb(237,27,47);
+    border-color: rgb(237,27,47);
+    margin: 10px 0px 0px 0px;
+}
+.white_circle {
+    display: flex;
+    position: relative;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(237,27,47);
+    border: 2px solid rgb(237,27,47);
+    margin: 10px 0px 0px 0px;
+}
+.container {
+    position: absolute;
+    right: 5px; bottom: 10px;
+    width: 30px;
+    height:200px;
+    background-color: rgba(255, 255, 255, 0);
+}
