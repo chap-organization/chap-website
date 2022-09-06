@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import SideBarCircles from '../components/General/SideBarCircles';
 
 import Hello from '../components/Home/Hello';
 
@@ -13,6 +14,7 @@ export default function Home() {
 
       <main>
         <Hello /> 
+        <SideBarCircles />
       </main>
 
     </div>
