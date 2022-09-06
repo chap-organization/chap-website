@@ -15,8 +15,7 @@ export default function Home() {
 
       <main>
         <div><Icon /></div>
-        <div>&gt;_</div>
-        {/* <div><Hello /></div> */}
+
         
         
       </main>
