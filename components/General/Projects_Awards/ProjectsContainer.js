@@ -1,6 +1,6 @@
 
 import Card from "./Card"
-import styles from '../../../styles/Components/Layout/Projects_Awards/ProjectsContainer.module.css'
+import styles from '../../../styles/Components/General/Projects_Awards/ProjectsContainer.module.css'
 
 const ProjectsContainer = () => {
 

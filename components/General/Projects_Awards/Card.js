@@ -1,6 +1,6 @@
 
 import React from 'react'
-import styles from '../../../styles/Components/Layout/Projects_Awards/Card.module.css'
+import styles from '../../../styles/Components/General/Projects_Awards/Card.module.css'
 
 const Card = ({ title, content, color }) => {
     return (

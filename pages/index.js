@@ -1,7 +1,7 @@
 import Head from 'next/head'
+import ProjectsContainer from '../components/General/Projects_Awards/ProjectsContainer';
 
 import Hello from '../components/Home/Hello';
-import ProjectsContainer from '../components/Layout/Projects_Awards/ProjectsContainer';
 
 
 export default function Home() {
@@ -21,7 +21,10 @@ export default function Home() {
     
       <main>
         <Hello />
-        {/* <ProjectsContainer/> */}
+
+        {/* <ProjectsContainer />*/ } 
+        {/* project and awards section */}
+        
       </main>
 
     </div>
