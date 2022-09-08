@@ -1,0 +1,32 @@
+.SideBar {
+    position: fixed;
+    height: 100%;
+    left: 0;
+    border-width: 20px;
+    border-left: 2px solid red;
+    border-right: 2px solid black;
+}
+
+.TerminalIcon {
+    background-color: transparent;
+    border: none;
+    color: red;
+}
+
+.TerminalIcon:hover,
+.TerminalIcon:active,
+.TerminalIcon:focus,
+.TerminalIcon:visited {
+    background-color: transparent;
+    border: none;
+}
+
+.link {
+    color: red;
+    text-decoration: none;
+}
+
+.Circles {
+    position: absolute;
+    bottom: 4em;
+}
