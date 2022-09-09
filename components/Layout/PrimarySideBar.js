@@ -47,7 +47,7 @@ export default function PrimarySideBar() {
                     </ul>
                 </div>
             </div> */}
-            <Offcanvas className={styles.offcanvasBar} show={show} onHide={handleClose}>
+            <Offcanvas className={styles.offcanvasBar} show={show} onHide={handleClose} placement={'end'}>
                 <Offcanvas.Header closeButton>
                     <Offcanvas.Title>Terminal Icon</Offcanvas.Title>
                 </Offcanvas.Header>
