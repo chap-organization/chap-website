@@ -1,13 +1,22 @@
 .container {
     display: flex;
-    width: fit-content;
-    flex-direction: row;
+    width: 100%;
+    flex-direction: column;
     background-color: rgb(228,0,43);
     color: white;
     font-family: 'a Astro Space';
     font-size: 64px;
     text-underline-offset: 8px;
     line-height: 75px;
+    position: absolute;
+}
+
+.img{
+    
+}
+
+.h1 {
+    padding: "60px"
 }
 
 @font-face {
