@@ -16,7 +16,7 @@ export default function PrimarySideBar() {
         </button> */}
         <div className="bar container-fluid">
             <Button className={styles.TerminalIcon} onClick={handleShow}>
-                >_
+                &gt;_
             </Button>
             <div className={styles.Circles}>Circles</div>
             {/* <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
