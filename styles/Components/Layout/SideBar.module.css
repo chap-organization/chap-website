@@ -3,14 +3,14 @@
     height: 100%;
     right: 0;
     border-width: 20px;
-    border-left: 2px solid red;
+    border-left: 2px solid rgb(228,0,43);
     border-right: 2px solid black;
 }
 
 .TerminalIcon {
     background-color: transparent;
     border: none;
-    color: red;
+    color: rgb(228,0,43);
 }
 
 .TerminalIcon:hover,
@@ -22,11 +22,12 @@
 }
 
 .link {
-    color: red;
+    color: rgb(228,0,43);
     text-decoration: none;
 }
 
 .Circles {
     position: absolute;
     bottom: 4em;
+    right: 0.5em;
 }
