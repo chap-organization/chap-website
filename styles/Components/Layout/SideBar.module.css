@@ -1,0 +1,52 @@
+.SideBar {
+    position: fixed;
+    height: 100%;
+    right: 0;
+    border-width: 20px;
+    border-left: 2px solid rgb(228,0,43);
+    border-right: 2px solid black;
+}
+
+.TerminalIcon {
+    background-color: transparent;
+    border: none;
+    color: rgb(228,0,43);
+    font-family: 'Helvetica Neue';
+    font-size: 64px;
+    font-weight: bold;
+}
+
+.PageTitle {
+    background-color: transparent;
+    border: none;
+    color: rgb(228,0,43);
+    font-family: 'Helvetica Neue';
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.TerminalIcon:hover,
+.TerminalIcon:active,
+.TerminalIcon:focus,
+.TerminalIcon:visited {
+    background-color: transparent;
+    border: none;
+}
+
+.link {
+    color: rgb(228,0,43);
+    text-decoration: none;
+}
+
+.Circles {
+    position: absolute;
+    bottom: 4em;
+    right: 0.5em;
+}
+
+@font-face {
+    font-family: 'a Astro Space';
+    font-style: normal;
+    font-weight: 400;
+    src: local('a Astro Space'), url('https://fonts.cdnfonts.com/s/47812/AstroSpace-0Wl3o.woff') format('woff');
+}
