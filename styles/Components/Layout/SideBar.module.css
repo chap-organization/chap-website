@@ -36,17 +36,15 @@
 .link {
     color: rgb(228,0,43);
     text-decoration: none;
+    transition: 300ms ease-in-out;
+    cursor: pointer;
+}
+.link:hover {
+    color: black;
 }
 
 .Circles {
     position: absolute;
     bottom: 4em;
     right: 0.5em;
-}
-
-@font-face {
-    font-family: 'a Astro Space';
-    font-style: normal;
-    font-weight: 400;
-    src: local('a Astro Space'), url('https://fonts.cdnfonts.com/s/47812/AstroSpace-0Wl3o.woff') format('woff');
 }

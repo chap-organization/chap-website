@@ -1,18 +1,9 @@
-import Head from 'next/head'
-import ProjectsContainer from '../components/General/Projects_Awards/ProjectsContainer';
+import Head from 'next/head';
 
-// import Hello from '../components/Home/Hello';
-import PrimarySideBar from '../components/Layout/PrimarySideBar';
-import "bootstrap/dist/css/bootstrap.min.css"
-
-
+import ProjectsContainer from '../components/ProjectsAwards/ProjectsContainer';
+import SideBar from '../components/Layout/SideBar';
 
 export default function Home() {
-
-  const cardone = {
-    title: 'Card One',
-    content: 'This is the card one'
-  }
 
   return (
     <div>
