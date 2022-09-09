@@ -12,11 +12,12 @@
 }
 
 .img{
-    
+    padding: 15px;
 }
 
 .h1 {
-    padding: "60px"
+    margin: 7.5px;
+    margin-left: 15px;
 }
 
 @font-face {
