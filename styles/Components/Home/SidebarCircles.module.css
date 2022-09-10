@@ -4,8 +4,8 @@
     width: 17px;
     height: 17px;
     border-radius: 50%;
-    background-color: rgb(237,27,47);
-    border-color: rgb(237,27,47);
+    background-color: rgb(228,0,43);
+    border-color: rgb(228,0,43);
     margin: 10px 0px 0px 0px;
 }
 .white_circle {
@@ -15,8 +15,8 @@
     height: 17px;
     border-radius: 50%;
     background-color: rgb(255, 255, 255);
-    border-color: rgb(237,27,47);
-    border: 2px solid rgb(237,27,47);
+    border-color: rgb(228,0,43);
+    border: 2px solid rgb(228,0,43);
     margin: 10px 0px 0px 0px;
 }
 .container {
