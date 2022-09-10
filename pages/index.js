@@ -1,8 +1,5 @@
 import Head from 'next/head';
 
-import ProjectsContainer from '../components/ProjectsAwards/ProjectsContainer';
-import SideBar from '../components/Layout/SideBar';
-
 export default function Home() {
 
   return (
@@ -15,10 +12,7 @@ export default function Home() {
       </Head>
     
       <main>
-
-        {/* <ProjectsContainer />*/ } 
-        {/* project and awards section */}
-        
+        {/* main section components will go here */}
       </main>
 
     </div>
