@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import ExecsPageHeading from '../components/Layout/ExecsPageHeading'
 
 export default function Home() {
   return (
@@ -11,7 +10,6 @@ export default function Home() {
       </Head>
 
       <main>
-        <ExecsPageHeading options={{firstLine: 'MEET', secondLine: 'OUR TEAM'}} />
       </main>
 
     </div>
