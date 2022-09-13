@@ -6,13 +6,7 @@
   color: white;
   font-family: "Helvetica Neue Bold", "Helvetica Neue", "HelveticaNeue-Light", "Helvetica Neue Light",
     Helvetica, Arial, "Lucida Grande", sans-serif;
-  font-size: 60px;
-  text-underline-offset: 8px;
-  line-height: 75px;
-}
-
-@media only screen and (max-width: 812px) {
- .container {
-  transform: scale(0.6);
-}
+  font-size: 3.5vw;
+  text-underline-offset: 0.5vw;
+  line-height: 4vw;
 }
