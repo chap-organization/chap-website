@@ -11,3 +11,8 @@
   line-height: 75px;
 }
 
+@media only screen and (max-width: 812px) {
+ .container {
+  transform: scale(0.6);
+}
+}
