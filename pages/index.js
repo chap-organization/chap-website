@@ -1,7 +1,9 @@
 import Head from 'next/head';
+import ExecsPageHeading from '../components/general/ExecsPageHeading';
 
 export default function Home() {
-
+  
+  const props = ["hello", "heu"]
   return (
     <div>
       <Head>
@@ -13,6 +15,7 @@ export default function Home() {
     
       <main>
         {/* main section components will go here */}
+        <ExecsPageHeading params={props} />
       </main>
 
     </div>
