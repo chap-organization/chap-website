@@ -5,6 +5,6 @@ export default function HeadingHomepage() {
     <header><u>C</u>ompetitive</header>
     <header><u>H</u>ackathons</header>
     <header><u>A</u>nd</header>
-    <header style={{paddingBottom: "10px"}}><u>P</u>rojects</header>
+    <header><u>P</u>rojects</header>
   </div>;
 }
