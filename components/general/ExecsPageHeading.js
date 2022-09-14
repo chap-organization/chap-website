@@ -1,10 +1,13 @@
-import styles from '../../styles/Components/Layout/ExecsPageHeading.module.css';
+import styles from '../../styles/Components/General/ExecsPageHeading.module.css';
+import Image from 'next/image';
 
 export default function ExecsPageHeading({params}) {
 
     let index = 0;
     return (<div className={styles.container}>
-        <img src={"/assets/CHAP.png"} width="200px" height="70px" className={styles.img}/>
+        <div>
+            <Image src={"/assets/CHAP.png"} width={225} height={50}/>
+        </div>
         {params.map((line) => {
             const firstLetter = line.toString().slice(0,1);
             const restOfString = line.toString().slice(1, line.length);
