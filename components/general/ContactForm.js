@@ -3,7 +3,6 @@ import styles from "../../styles/Components/General/ContactForm.module.css"
 export default function ContactForm() {
 
     function handleSubmit() {
-        
         const type = document.querySelector(`.${styles.form} select`).value;
         const [ firstName, lastName, email, phone ] = document.querySelectorAll(`.${styles.form} input`);
         const message = document.querySelector(`.${styles.form} textarea`).value;
@@ -18,7 +17,6 @@ export default function ContactForm() {
             email: email.value,
             phone: phone.value,
             message,
-            
         }
         
         // send email here 
