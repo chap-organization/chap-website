@@ -1,6 +1,6 @@
 import Head from 'next/head'
 
-import LoadingPage from '../components/LoadingPage/Loading';
+import LoadingPage from '../components/Loading/Loading';
 
 export default function Home() {
   return (

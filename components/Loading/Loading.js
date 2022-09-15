@@ -1,15 +1,14 @@
-import CPressed from "/assets/CPressed.svg";
-import HPressed from "/assets/HPressed.svg";
-import APressed from "/assets/APressed.svg";
-import PPressed from "/assets/PPressed.svg";
-import RedBirdPressed from "/assets/RedBirdPressed.svg";
-import CIdle from "/assets/CIdle.svg";
-import HIdle from "/assets/HIdle.svg";
-import AIdle from "/assets/AIdle.svg";
-import PIdle from "/assets/PIdle.svg";
-import RedBirdIdle from "/assets/RedBirdIdle.svg";
+import CPressed from "../../public/assets/CPressed.svg";
+import HPressed from "../../public/assets/HPressed.svg";
+import APressed from "../../public/assets/APressed.svg";
+import PPressed from "../../public/assets/PPressed.svg";
+import RedBirdPressed from "../../public/assets/RedBirdPressed.svg";
+import CIdle from "../../public/assets/CIdle.svg";
+import HIdle from "../../public/assets/HIdle.svg";
+import AIdle from "../../public/assets/AIdle.svg";
+import PIdle from "../../public/assets/PIdle.svg";
+import RedBirdIdle from "../../public/assets/RedBirdIdle.svg";
 import styles from "../../styles/Components/Loading/Loading.module.css";
-
 import { useEffect, useState, useRef } from "react";
 
 export default function LoadingPage() {

@@ -1,12 +1,12 @@
 .container{
-    display: "flex";
-    justify-content: "center";
-    height: "100vh";
-    width: "100vw";
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
 }
 
 .key{
-    margin-top: "auto";
-    margin-bottom: "auto"; 
-    width: "10%";
+    margin-top: auto;
+    margin-bottom: auto; 
+    width: 10%;
 }
