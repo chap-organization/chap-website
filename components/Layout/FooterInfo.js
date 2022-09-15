@@ -30,22 +30,22 @@ export default function FooterInfo() {
                 <div className={styles.links}>
                     <div>
                         <a href="">
-                            <Image src={"/assets/Icons/Linkedin Logo 1.png"} width={50} height={50} alt="Linkedin Logo" /> 
+                            <Image src={"/assets/Icons/Linkedin Logo 1.png"} width={70} height={70} alt="Linkedin Logo" /> 
                         </a>
                     </div>
                     <div>
                         <a href="">
-                            <Image src={"/assets/Icons/Github Logo 1.png"} width={50} height={50} alt="Linkedin Logo" /> 
+                            <Image src={"/assets/Icons/Github Logo 1.png"} width={70} height={70} alt="Linkedin Logo" /> 
                         </a>
                     </div>
                     <div>
                         <a href="">
-                            <Image src={"/assets/Icons/Instagram Logo 1.png"} width={50} height={50} alt="Linkedin Logo" /> 
+                            <Image src={"/assets/Icons/Instagram Logo 1.png"} width={70} height={70} alt="Linkedin Logo" /> 
                         </a>
                     </div>
                     <div>
                         <a href="">
-                            <Image src={"/assets/Icons/Facebook Logo 1.png"} width={50} height={50} alt="Linkedin Logo" /> 
+                            <Image src={"/assets/Icons/Facebook Logo 1.png"} width={70} height={70} alt="Linkedin Logo" /> 
                         </a>
                     </div>
                 </div>

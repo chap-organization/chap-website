@@ -2,6 +2,7 @@
     font-size: 48px;
     font-weight: bold;
     padding: 0;
+    color: #E4002B;
 }
 .footer p {
     font-weight: bold;
@@ -13,7 +14,7 @@
     margin-top: 20px;
 }
 
-.contact {
+.contact, .bottom {
     margin-top: 10px;
 }
 
