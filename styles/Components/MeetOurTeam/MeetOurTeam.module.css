@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+.header{
+    display: flex;
+    height: 90px;
+    width: 100%;
+    background-color: #E4002B;
+    align-items: center;
+    justify-content: left;
+}
+
+.title{
+    color:white;
+    font-size:50px;
+    font-family:Audiowide;
+}
+
+.header2{
+    display: flex;
+    height: 90px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.title2{
+    font-size:50px;
+    font-family:Audiowide;
+}
+
+.memberCard{
+    margin:20px;
+}
+
+.flipcardclicked {
+  background-color: transparent;
+  width: 250px;
+  height: 300px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+.flipcard {
+  background-color: transparent;
+  width: 250px;
+  height: 300px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flipcardinner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flipcardclicked .flipcardinner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flipcardfront, .flipcardback {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flipcardfront {
+  background-color: #bbb;
+  color: black;
+}
+
+/* Style the back side */
+.flipcardback {
+  background-color: lightgray;
+  transform: rotateY(180deg);
+}
+
+.backname{
+    margin-top:10px;
+    color:black;
+    font-family:Audiowide;
+}
+
+.backposition{
+    margin-bottom:10px;
+    color:black;
+    font-family:Audiowide;
+    font-size:10px;
+}
+
+.backcontent {
+    overflow-y:scroll; 
+    height:175px; 
+    background:lightgray;
+    width:235px;
+    font-family:Audiowide;
+    font-size:11px;
+}
+
+.backcontent::-webkit-scrollbar {
+  width: 5px;
+}
+ 
+.backcontent::-webkit-scrollbar-track {
+  display:none;
+
+}
+ 
+.backcontent::-webkit-scrollbar-thumb {
+  background-color: white;
+  outline: 1px solid black;
+  border-radius:10px;
+}
+
+.imageContainer{
+    display: flex;
+    text-align: center;
+    justify-content: left;
+    margin-top: 10px;
+}
+.logo{
+    margin-top: 5px;
+    margin-right:5px;
+    margin-left: 5px;
+}
+
+.circle{
+  display: block;
+  background-color: #0B455E;
+  width: 250px;
+  height: 300px;
+  margin: 50px auto 0;
+  transition: all 0.5s ease;
+}
+.circle:hover{
+  background-color: #666;
+}
+.circle{
+     border-radius: 100%;
+     -moz-border-radius: 100%;
+     -webkit-border-radius: 100%;
+}
+
+.circle:hover{
+       -webkit-border-radius: 0 0 0 0;
+}
