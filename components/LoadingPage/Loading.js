@@ -1,13 +1,14 @@
-import CPressed from "./Images/CPressed.svg";
-import HPressed from "./Images/HPressed.svg";
-import APressed from "./Images/APressed.svg";
-import PPressed from "./Images/PPressed.svg";
-import RedBirdPressed from "./Images/RedBirdPressed.svg";
-import CIdle from "./Images/CIdle.svg";
-import HIdle from "./Images/HIdle.svg";
-import AIdle from "./Images/AIdle.svg";
-import PIdle from "./Images/PIdle.svg";
-import RedBirdIdle from "./Images/RedBirdIdle.svg";
+import CPressed from "/assets/CPressed.svg";
+import HPressed from "/assets/HPressed.svg";
+import APressed from "/assets/APressed.svg";
+import PPressed from "/assets/PPressed.svg";
+import RedBirdPressed from "/assets/RedBirdPressed.svg";
+import CIdle from "/assets/CIdle.svg";
+import HIdle from "/assets/HIdle.svg";
+import AIdle from "/assets/AIdle.svg";
+import PIdle from "/assets/PIdle.svg";
+import RedBirdIdle from "/assets/RedBirdIdle.svg";
+import styles from "../../styles/Components/Loading/Loading.module.css";
 
 import { useEffect, useState, useRef } from "react";
 
@@ -28,57 +29,46 @@ export default function LoadingPage() {
   });
 
   return (
-    <div
-      style={{
-        display: "flex",
-        justifyContent: "center",
-        height: "100vh",
-        width: "100vw",
-      }}
-    >
+    <div className={styles.container}>
       {time > 1000 && time < 1500 ? (
-        <CPressed
-          style={{ marginTop: "auto", marginBottom: "auto", width: "10%" }}
-        />
+        <CPressed className={styles.key} />
       ) : (
-        <CIdle
-          style={{ marginTop: "auto", marginBottom: "auto", width: "10%" }}
-        />
+        <CIdle className={styles.key} />
       )}
-      {time > 1600 && time < 2100? (
+      {time > 1600 && time < 2100 ? (
         <HPressed
-          style={{ marginTop: "auto", marginBottom: "auto", width: "10%" }}
+          className={styles.key}
         />
       ) : (
         <HIdle
-          style={{ marginTop: "auto", marginBottom: "auto", width: "10%" }}
+          className={styles.key}
         />
       )}
       {time > 2200 && time < 2700 ? (
         <APressed
-          style={{ marginTop: "auto", marginBottom: "auto", width: "10%" }}
+          className={styles.key}
         />
       ) : (
         <AIdle
-          style={{ marginTop: "auto", marginBottom: "auto", width: "10%" }}
+          className={styles.key}
         />
       )}
-      {time >  2800 && time <  3200 ? (
+      {time > 2800 && time < 3200 ? (
         <PPressed
-          style={{ marginTop: "auto", marginBottom: "auto", width: "10%" }}
+          className={styles.key}
         />
       ) : (
         <PIdle
-          style={{ marginTop: "auto", marginBottom: "auto", width: "10%" }}
+          className={styles.key}
         />
       )}
       {time > 3200 && time < 3700 ? (
         <RedBirdPressed
-          style={{ marginTop: "auto", marginBottom: "auto", width: "10%" }}
+          className={styles.key}
         />
       ) : (
         <RedBirdIdle
-          style={{ marginTop: "auto", marginBottom: "auto", width: "10%" }}
+          className={styles.key}
         />
       )}
     </div>
