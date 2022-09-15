@@ -1,17 +1,29 @@
-.form {
-    width: 600px;
+
+.formContainer {
+    display: flex;
+    justify-content: center;
 }
 
-.selectInput {
+.form {
+    width: 95%;
+}
+
+.form select {
     height: 60px;
     background-color: #E4002B;
     border: 0px solid;
     border-radius: 10px;
     color: #fff;
+    width: 60%;
+    font-size: 24px;
+    margin-left: 12px;
+
 }
 
 .joinText {
-    font-size: 60px;
+    font-size: 48px;
+    margin-left: 24px;
+    font-weight: bold;
 }
 
 .form input {
@@ -21,6 +33,7 @@
     border: 0px solid;
     border-radius: 10px;
     box-shadow: 0px 2px 1px 1px #c3c3c3;
+    padding-left: 5%;
 }
 
 .form textarea {
@@ -31,4 +44,23 @@
     border: 0px solid;
     border-radius: 10px;
     box-shadow: 0px 2px 1px 1px #c3c3c3;
+    padding-left: 2%;
 }
+
+.submitContainer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.submit {
+    background-color: #E4002B;
+    border: 0px solid;
+    border-radius: 20px;
+    width: 150px;
+    height: 50px;
+    color: white;
+    font-size: 24px;
+}
+
+.form .col-6 { padding-left: 0; }
+.form .col-12 { padding-left: 0; }

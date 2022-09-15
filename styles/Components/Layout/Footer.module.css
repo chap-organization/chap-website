@@ -1,0 +1,14 @@
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.contact {
+    width: 95%;
+}
+
+.info {
+    width: 80%;
+}
+
