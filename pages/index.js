@@ -14,7 +14,6 @@ export default function Home() {
     
       <main>
         {/* main section components will go here */}
-        <Footer />
       </main>
 
     </div>
