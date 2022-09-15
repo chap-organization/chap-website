@@ -47,7 +47,7 @@ export default function ContactForm() {
                             <input name="lastName" id="lastName" type="text" placeholder="Last Name"></input>
                         </div>
                         <div className="col-6">
-                            <input name="email" id="email" type="text" placeholder="Email"></input>
+                            <input name="email" id="email" type="email" placeholder="Email"></input>
                         </div>
                         <div className="col-6">
                             <input name="phone" id="phone" type="tel" placeholder="Phone"></input>
