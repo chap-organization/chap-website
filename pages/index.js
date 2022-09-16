@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import HomeSection from "../components/Home/HomeSection";
 
 export default function Home() {
   
@@ -12,8 +13,9 @@ export default function Home() {
 
       </Head>
     
-      <main>
+      <main id="homePage">
         {/* main section components will go here */}
+        <HomeSection />
       </main>
 
     </div>
