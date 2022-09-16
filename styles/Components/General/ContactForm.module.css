@@ -14,11 +14,18 @@
     border: 0px solid;
     border-radius: 10px;
     color: #fff;
-    width: 60%;
+    width: 70%;
     font-size: 24px;
     margin-left: 12px;
+}
+
+.form select::-ms-expand {
+    /* position: relative;
+    right: 10px; */
+    display: none
 
 }
+
 
 .joinText {
     font-size: 48px;

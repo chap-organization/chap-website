@@ -31,7 +31,7 @@ export default function ContactForm() {
             <div className={`row ${styles.formContainer}`}>
                 <form className={styles.form}>
                     <div className="row">
-                        <select name="type" >
+                        <select name="type" className={"form-select"} >
                             <option value="Join Us">Join us</option>
                             <option value="Sponsor">Sponsor</option>
                             <option value="GeneralMessage">General Message</option>
