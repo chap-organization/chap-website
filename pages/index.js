@@ -1,6 +1,6 @@
 import Head from 'next/head';
-import HomeSection from "../components/Home/HomeSection";
-
+import HomeSection from '../components/Home/HomeSection';
+import AboutUs from '../components/AboutUs/AboutUs'
 export default function Home() {
   
   const props = ["hello", "heu"]
@@ -15,7 +15,8 @@ export default function Home() {
     
       <main id="homePage">
         {/* main section components will go here */}
-        <HomeSection />
+        {/* <HomeSection /> */}
+        <AboutUs/>
       </main>
 
     </div>
