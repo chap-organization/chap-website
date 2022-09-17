@@ -3,6 +3,7 @@ import styles from '../../styles/Components/AboutUs/AboutUs.module.css'
 
 const AboutUs = () => {
     return (
+        
         <div className={`${styles.container}`}>
             <div className={styles.header}>
                 <h1> ABOUT US </h1>
