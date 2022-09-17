@@ -9,3 +9,9 @@ body {
 #homePage {
   margin-right: 110px;
 }
+
+@media screen and (max-width: 768px) {
+  #homePage {
+    margin-right: 0;
+  }
+}
