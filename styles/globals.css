@@ -1,11 +1,53 @@
 html,
 body {
+  
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
-#homePage {
+/* #homePage {
   margin-right: 110px;
+} */
+
+.row {
+  width: 100%;
+  padding-left: 12px;
+}
+.col {
+  padding-right: 0 !important;
+}
+.col-6 {
+  padding-right: 0 !important;
+}
+.col-md-6 {
+  padding-right: 0 !important;
+}
+.col-md-7 {
+  padding-right: 0 !important;
+}
+.col-md-5 {
+  padding-right: 0 !important;
+}
+.col-md-3 {
+  padding-right: 0 !important;
+}
+.col-md {
+  padding-right: 0 !important;
+}
+.col-xl-5 {
+  padding-right: 0 !important;
+}
+.col-xl {
+  padding-right: 0 !important;
+}
+.col-lg-6 {
+  padding-right: 0 !important;
+}
+.col-sm-3 {
+  padding-right: 0 !important;
+}
+.col-sm-6 {
+  padding-right: 0 !important;
 }

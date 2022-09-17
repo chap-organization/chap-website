@@ -2,9 +2,11 @@
 import styles from '../../styles/Components/AboutUs/Chart.module.css'
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from 'chart.js';
 import ChartDeferred from 'chartjs-plugin-deferred';
+import ChartDataLabels from 'chartjs-plugin-datalabels';
+
 import { Doughnut } from 'react-chartjs-2';
 
-ChartJS.register(ArcElement, Tooltip, Legend, ChartDeferred);
+ChartJS.register(ArcElement, Tooltip, Legend, ChartDeferred, ChartDataLabels);
 
 const Chart = () => {
 
@@ -41,7 +43,7 @@ const Chart = () => {
         plugins: {
             deferred : {
                 yOffset : '50%'
-            }
+            },
         }
     }
 
