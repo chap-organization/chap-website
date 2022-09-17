@@ -1,9 +1,9 @@
 
 import styles from '../../styles/Components/AboutUs/AboutUs.module.css'
+import Chart from './Chart.js'
 
 const AboutUs = () => {
     return (
-        
         <div className={`${styles.container}`}>
             <div className={styles.header}>
                 <h1> ABOUT US </h1>
@@ -17,7 +17,7 @@ const AboutUs = () => {
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
                     </div>
                     <div className={`${styles.roundshit} col-lg-6`}>
-                        
+                        <Chart/>
                     </div>
                 </div>
             </div>

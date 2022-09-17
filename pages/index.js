@@ -15,7 +15,7 @@ export default function Home() {
     
       <main id="homePage">
         {/* main section components will go here */}
-        {/* <HomeSection /> */}
+        <HomeSection />
         <AboutUs/>
       </main>
 
