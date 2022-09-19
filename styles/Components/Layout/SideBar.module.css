@@ -67,11 +67,12 @@
     .SideBar {
         height: 110px;
         width: 110px;
+        transform: scale(0.75);
         background-color: white;
         border-radius: 50%;
         z-index: 1;
         border: 2px solid rgb(228,0,43);
-        margin: 10px 10px 0 0;
+        margin: 10px 25px 0 0;
     }
 
     #outsideSidebarCircles {

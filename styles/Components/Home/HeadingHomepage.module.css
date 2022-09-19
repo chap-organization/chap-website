@@ -27,6 +27,7 @@
     text-underline-offset: 3.8px;
     line-height: 60px;
     transition: all 0.2s ease-in-out;
+    transform: scale(0.75)
   }
 }
 
