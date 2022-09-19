@@ -16,7 +16,8 @@ const AboutUs = () => {
                     <div className={`${styles.bottomText} col-lg-6`}>
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
                     </div>
-                    <div className={`${styles.roundshit} col-lg-6`}>
+                    <div className={`${styles.chart} col-lg-6`}>
+                        <p>Demographics</p>
                         <Chart/>
                     </div>
                 </div>
