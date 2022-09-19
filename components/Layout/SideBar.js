@@ -1,6 +1,7 @@
 import styles from '../../styles/Components/Layout/SideBar.module.css'
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import { useState } from 'react';
+import SidebarCircles from '../Home/SidebarCircles';
 
 export default function SideBar() {
 
@@ -14,7 +15,7 @@ export default function SideBar() {
             <button className={styles.TerminalIcon} onClick={handleShow}>
                 &gt;_
             </button>
-            <div className={styles.Circles}>Circles</div>
+            <div id={styles.outsideSidebarCircles} ><SidebarCircles /></div>
             <Offcanvas className={styles.offcanvasBar} show={show} onHide={handleClose} placement={'end'}>
                 <Offcanvas.Header>
                     <button className={styles.TerminalIcon} onClick={handleClose}>
@@ -41,11 +42,11 @@ export default function SideBar() {
                         <li className={styles.PageTitle}>
                             <a className={styles.link}>FAQ</a>
                         </li>
-                        <li className={styles.PageTitle}>
+                        <li className={styles.PageTitle} id={styles.joinUsButton}>
                             <a className={styles.link}>Join us</a>
                         </li>
                     </ul>
-                    <div className={styles.Circles}>Circles</div>
+                    <SidebarCircles />
                 </Offcanvas.Body>
             </Offcanvas>
         </div>

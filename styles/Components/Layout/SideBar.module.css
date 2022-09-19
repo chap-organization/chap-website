@@ -40,11 +40,42 @@
     cursor: pointer;
 }
 .link:hover {
-    color: black;
+    color: rgb(228,0,43);
+    text-decoration: underline;
 }
 
-.Circles {
-    position: absolute;
-    bottom: 4em;
-    right: 0.5em;
+#joinUsButton {
+    margin-top: 20px;
+}
+
+#joinUsButton a {
+    background-color: rgb(228,0,43);
+    padding: 10px;
+    color: white;
+    margin-top: 10px;
+    border-radius: 40px;
+    border: 2px solid rgb(228,0,43);
+}
+
+#joinUsButton a:hover {
+    color: rgb(228,0,43);
+    background-color: white;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+    .SideBar {
+        height: 110px;
+        width: 110px;
+        transform: scale(0.75);
+        background-color: white;
+        border-radius: 50%;
+        z-index: 1;
+        border: 2px solid rgb(228,0,43);
+        margin: 10px 15px 0 0;
+    }
+
+    #outsideSidebarCircles {
+        display: none;
+    }
 }

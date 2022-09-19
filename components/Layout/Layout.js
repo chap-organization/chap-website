@@ -1,3 +1,4 @@
+import Footer from "./Footer";
 import SideBar from "./SideBar";
 
 const Layout = ({ children }) => {
@@ -5,7 +6,7 @@ const Layout = ({ children }) => {
         <div>
             <SideBar />
             { children }
-            
+            <Footer />
         </div>
 
     );
