@@ -42,7 +42,7 @@ export default function SideBar() {
                         <li className={styles.PageTitle}>
                             <a className={styles.link}>FAQ</a>
                         </li>
-                        <li className={styles.PageTitle}>
+                        <li className={styles.PageTitle} id={styles.joinUsButton}>
                             <a className={styles.link}>Join us</a>
                         </li>
                     </ul>
