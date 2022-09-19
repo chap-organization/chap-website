@@ -4,6 +4,11 @@
     padding: 0;
     color: #E4002B;
 }
+
+.footer{
+    margin-top: 40px;
+}
+
 .footer p {
     font-weight: bold;
     font-size: 20px;
@@ -36,3 +41,9 @@
     padding-top: 20px;
 }
 
+
+@media screen and (max-width: 767px) {
+    .title{
+        font-size: 30px;
+    }
+}

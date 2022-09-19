@@ -6,7 +6,7 @@ import styles from "../../styles/Components/Layout/Footer.module.css"
 export default function Footer() {
     return (
         <section>
-            <div className="row g-3">
+            <div className={`${styles.container} row g-3`}>
                 <div className={`col-lg-6 ${styles.center}`}>
                     <div className={styles.contact}>
                         <ContactForm />
