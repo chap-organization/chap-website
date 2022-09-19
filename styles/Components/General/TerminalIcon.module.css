@@ -1,0 +1,24 @@
+
+
+/* .container {
+    width: 90%;
+    border: 3px solid #333;
+    border-radius: 10px;
+    background-color: #ffffff;
+    color: blue;
+    height: 500px;
+    position: relative;
+} */
+
+.terminalIcon{
+    width: 125px;
+    border: none;
+    border-radius: 5px;
+    background-color: none;
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    height: 100px;
+    top: -100px;
+    left: -600px;
+    position: relative;
+}

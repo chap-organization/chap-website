@@ -1,0 +1,49 @@
+.title {
+    font-size: 48px;
+    font-weight: bold;
+    padding: 0;
+    color: #E4002B;
+}
+
+.footer{
+    margin-top: 40px;
+}
+
+.footer p {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.contact, .loc, .available, .bottom {
+    margin-top: 20px;
+}
+
+.contact, .bottom {
+    margin-top: 10px;
+}
+
+.contact p {
+    margin-top: 15px;
+}
+
+.followUs {
+    font-size: 48px;
+    color: #E4002B
+}
+
+.links {
+    display: flex;
+    gap: 5%;
+}
+
+.bottom > div {
+    padding-top: 20px;
+}
+
+
+@media screen and (max-width: 767px) {
+    .title{
+        font-size: 30px;
+    }
+}
