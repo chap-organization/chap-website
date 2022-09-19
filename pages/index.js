@@ -13,7 +13,7 @@ export default function Home() {
 
       </Head>
     
-      <main id="homePage">
+      <main className="pageMargin">
         {/* main section components will go here */}
         <HomeSection />
         <AboutUs/>
