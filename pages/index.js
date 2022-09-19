@@ -3,7 +3,6 @@ import HomeSection from '../components/Home/HomeSection';
 import AboutUs from '../components/AboutUs/AboutUs'
 export default function Home() {
   
-  const props = ["hello", "heu"]
   return (
     <div>
       <Head>

@@ -38,16 +38,16 @@ export default function ContactForm() {
                         </select>
                     </div>
                     <div className="row g-4 pt-4">
-                        <div className="col-6">
+                        <div className="col-sm-6">
                             <input name="firstName" id="firstName" type="text" placeholder="First Name"></input>
                         </div>
-                        <div className="col-6">
+                        <div className="col-sm-6">
                             <input name="lastName" id="lastName" type="text" placeholder="Last Name"></input>
                         </div>
-                        <div className="col-6">
+                        <div className="col-sm-6">
                             <input name="email" id="email" type="email" placeholder="Email"></input>
                         </div>
-                        <div className="col-6">
+                        <div className="col-sm-6">
                             <input name="phone" id="phone" type="tel" placeholder="Phone"></input>
                         </div>
                         <div className="col-12">

@@ -5,7 +5,13 @@
 }
 
 .form {
-    width: 95%;
+    width: 90%;
+}
+
+@media only screen and (max-width: 991px){
+    .form {
+        width: 80%;
+    }
 }
 
 .form select {
