@@ -4,7 +4,14 @@ import { useState } from "react";
 
 export default function MeetOurTeam() {
   const executives = [
-    { name: "Athavan Thambimuthu", position: "Director of Projects" },
+    {   name:"Athavan Thambimuthu",
+        position:"Director of Projects",
+        image:"https://media-exp2.licdn.com/dms/image/C4E03AQFG2LpVKJk3Sg/profile-displayphoto-shrink_200_200/0/1588706616470?e=2147483647&v=beta&t=M-TbLvPl6KY02n-fFQ21H3pGwAjYPVoUWWrhj3-MY_I",
+        description: "", },
+    {   name:"Athavan Thambimuthu",
+        position:"Director of Projects",
+        image:"https://media-exp2.licdn.com/dms/image/C4E03AQFG2LpVKJk3Sg/profile-displayphoto-shrink_200_200/0/1588706616470?e=2147483647&v=beta&t=M-TbLvPl6KY02n-fFQ21H3pGwAjYPVoUWWrhj3-MY_I",
+        description: "", },
   ];
 
   function MemberCard(props) {
@@ -15,37 +22,25 @@ export default function MeetOurTeam() {
     };
 
     return (
-      <div className={styles.memberCard}>
         <div
           className={isClicked ? styles.flipcard : styles.flipcardclicked}
           onClick={handleClick}
         >
           <div className={styles.flipcardinner}>
             <div className={styles.flipcardfront}>
-              <div className={styles.circle}></div>
+              <div
+                className={styles.frontimage}
+                style={{ backgroundImage: `url('${props.image}')` }}
+              >
+                {" "}
+              </div>
+              <div className={styles.frontname}> {props.name} </div>
+              <div className={styles.frontposition}> {props.position}</div>
             </div>
             <div className={styles.flipcardback}>
-              <div className={styles.backname}>Athavan Thambimuthu</div>
-              <div className={styles.backposition}>Director of Projects</div>
-              <div className={styles.backcontent}>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book. It has
-                survived not only five centuries, but also the leap into
-                electronic typesetting, remaining essentially unchanged. It was
-                popularised in the 1960s with the release of Letraset sheets
-                containing Lorem Ipsum passages, and more recently with desktop
-                publishing software like Aldus PageMaker including versions of
-                Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing
-                and typesetting industry. Lorem Ipsum has been the industry's
-                standard dummy text ever since the 1500s, when an unknown
-                printer took a galley of type and scrambled it to make a type
-                specimen book. It has survived not only five centuries, but also
-                the leap into electronic typesetting, remaining essentially
-                unchanged. It was popularised in the 1960s with the release of
-                Letraset sheets containing Lorem Ipsum passages, and more
-              </div>
+              <div className={styles.backname}>{props.name}</div>
+              <div className={styles.backposition}>{props.position}</div>
+              <div className={styles.backcontent}>{props.description}</div>
               <div className={styles.imageContainer}>
                 <div className={styles.logo}>
                   <Image
@@ -61,12 +56,11 @@ export default function MeetOurTeam() {
             </div>
           </div>
         </div>
-      </div>
     );
   }
 
   return (
-    <>
+    <div>
       <div className={styles.header}>
         <div className={styles.title}>
           <u>M</u>EET OUR TEAM
@@ -77,8 +71,14 @@ export default function MeetOurTeam() {
           <u>E</u>XECUTIVES
         </div>
       </div>
-
-      <MemberCard name="Athavan Thambimuthu" position="Director of Projects" />
+      {executives.map((executive) => (
+        <MemberCard
+          name={executive.name}
+          position={executive.position}
+          image={executive.image}
+          description = {executive.description}
+        />
+      ))}
 
       <div className={styles.header2}>
         <div className={styles.title2}>
@@ -90,6 +90,6 @@ export default function MeetOurTeam() {
           <u>M</u>EDIA
         </div>
       </div>
-    </>
+    </div>
   );
 }
