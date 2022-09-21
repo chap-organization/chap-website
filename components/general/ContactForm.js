@@ -45,7 +45,7 @@ export default function ContactForm() {
                         </select>
                     </div>
                     <div className="row g-4 pt-4">
-                        <div className="col-6">
+                        <div className="col-sm-6">
                             <input
                                 name="firstName"
                                 id="firstName"
@@ -53,7 +53,7 @@ export default function ContactForm() {
                                 placeholder="First Name"
                             ></input>
                         </div>
-                        <div className="col-6">
+                        <div className="col-sm-6">
                             <input
                                 name="lastName"
                                 id="lastName"
@@ -61,7 +61,7 @@ export default function ContactForm() {
                                 placeholder="Last Name"
                             ></input>
                         </div>
-                        <div className="col-6">
+                        <div className="col-sm-6">
                             <input
                                 name="email"
                                 id="email"
@@ -69,7 +69,7 @@ export default function ContactForm() {
                                 placeholder="Email"
                             ></input>
                         </div>
-                        <div className="col-6">
+                        <div className="col-sm-6">
                             <input
                                 name="phone"
                                 id="phone"

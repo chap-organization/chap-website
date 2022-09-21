@@ -63,11 +63,11 @@
     text-decoration: none;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .SideBar {
         height: 110px;
         width: 110px;
-        transform: scale(0.75);
+        transform: scale(0.60);
         background-color: white;
         border-radius: 50%;
         z-index: 1;

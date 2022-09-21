@@ -7,9 +7,11 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
-/* #homePage {
-  margin-right: 110px;
-} */
+@media only screen and (min-width: 768px) {
+  .pageMargin {
+    margin-right: 110px;
+  }
+}
 
 .row {
   width: 100%;
@@ -49,6 +51,9 @@ body {
   padding-right: 0 !important;
 }
 .col-sm-6 {
+  padding-right: 0 !important;
+}
+.col-12 {
   padding-right: 0 !important;
 }
 
