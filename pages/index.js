@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 744992a (Moving Some Things Around and Added Some Transitions)
 import React, { useEffect } from 'react';
 import Head from 'next/head';
 import HomeSection from '../components/Home/HomeSection';
@@ -6,12 +9,15 @@ import AboutUs from '../components/AboutUs/AboutUs';
 import Loading from '../components/Loading/Loading';
 import SideBar from '../components/Layout/SideBar/SideBar';
 import Footer from '../components/Layout/Footer';
+<<<<<<< HEAD
 =======
 import Head from 'next/head'
 
 import MeetOurTeam from '../components/MeetOurTeam/MeetOurTeam';
 
 >>>>>>> e19f2b0 (ClickFlip Implemented)
+=======
+>>>>>>> 744992a (Moving Some Things Around and Added Some Transitions)
 export default function Home() {
     function handleLoad() {
         document.body.style.height = '100vh'; // ensures you cant scroll past loading page
@@ -19,6 +25,9 @@ export default function Home() {
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 744992a (Moving Some Things Around and Added Some Transitions)
     useEffect(() => {
         window.addEventListener('load', handleLoad, false);
         const intervalID = setInterval(() => {
@@ -34,9 +43,12 @@ export default function Home() {
             }
         }, 3200);
     }, []);
+<<<<<<< HEAD
 =======
       <MeetOurTeam /> 
 >>>>>>> e19f2b0 (ClickFlip Implemented)
+=======
+>>>>>>> 744992a (Moving Some Things Around and Added Some Transitions)
 
     return (
         <div>
