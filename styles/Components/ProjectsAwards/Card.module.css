@@ -2,20 +2,20 @@
 
 
 .cardContainer {
-    background-color: #D9D9D9;
+    background-color: var(--chap-grey);
 }
 
 .title{
     padding: 15px;
     font-weight: 600;
-    color: #ED1B2F;
+    color: var(--chap-red);
 }
 
 .content{
     padding: 20px;
-    font-size: small;
+    font-size: var(--sm);
     font-weight: 600;
-    color: #ED1B2F;
+    color: var(--chap-red);
     word-wrap: break-word;
     width: 80%;
     margin: 0 auto;
@@ -23,8 +23,8 @@
 
 .logo{
     font-weight: 600;
-    color: #ED1B2F;
-    font-size: 40px;
+    color: var(--chap-red);
+    font-size: var(--xl);
     text-align: end;
     padding: 0px 40px;
 }

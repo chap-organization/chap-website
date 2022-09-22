@@ -4,8 +4,8 @@
     width: 17px;
     height: 17px;
     border-radius: 50%;
-    background-color: rgb(228,0,43);
-    border-color: rgb(228,0,43);
+    background-color: var(--chap-red);
+    border-color: var(--chap-red);
     margin: 10px 0px 0px 0px;
 }
 .white_circle {
@@ -14,14 +14,14 @@
     width: 17px;
     height: 17px;
     border-radius: 50%;
-    background-color: rgb(255, 255, 255);
-    border-color: rgb(228,0,43);
-    border: 2px solid rgb(228,0,43);
+    background-color: var(--chap-white);
+    border-color: var(--chap-red);
+    border: 2px solid var(--chap-red);
     margin: 10px 0px 0px 0px;
 }
 .container {
     position: absolute;
     right: 5px; bottom: 40px;
     width: 30px;
-    background-color: rgba(255, 255, 255, 0);
+    background-color: var(--chap-black);
 }

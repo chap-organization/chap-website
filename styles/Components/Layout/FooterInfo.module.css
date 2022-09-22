@@ -1,22 +1,22 @@
 .title {
-    font-size: 48px;
+    font-size: var(--heading);
     font-weight: bold;
     padding: 0;
-    color: #E4002B;
+    color: var(--chap-red);
 }
 
 .footer{
-    margin-top: 40px;
+    margin-top: 10px;
 }
 
 .footer p {
     font-weight: bold;
-    font-size: 20px;
+    font-size: var(--med);
     margin-bottom: 0;
 }
 
 .contact, .loc, .available, .bottom {
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .contact, .bottom {
@@ -28,8 +28,8 @@
 }
 
 .followUs {
-    font-size: 48px;
-    color: #E4002B
+    font-size: var(--heading);
+    color: var(--chap-red);
 }
 
 .links {
@@ -44,6 +44,6 @@
 
 @media screen and (max-width: 767px) {
     .title{
-        font-size: 30px;
+        font-size: var(--heading);
     }
 }
