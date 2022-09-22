@@ -1,7 +1,32 @@
+import React, { useEffect } from 'react';
 import Head from 'next/head';
 import HomeSection from '../components/Home/HomeSection';
 import AboutUs from '../components/AboutUs/AboutUs';
+import Loading from '../components/Loading/Loading';
+import SideBar from '../components/Layout/SideBar/SideBar';
+import Footer from '../components/Layout/Footer';
 export default function Home() {
+    function handleLoad() {
+        document.body.style.height = '100vh'; // ensures you cant scroll past loading page
+        document.body.style.overflowY = 'hidden';
+    }
+
+    useEffect(() => {
+        window.addEventListener('load', handleLoad, false);
+        const intervalID = setInterval(() => {
+            let counter = 0;
+            if (counter > 0) {
+                clearInterval(intervalID);
+            }
+            if (
+                document.querySelector('#loading-page').style.display == 'none'
+            ) {
+                document.body.style.removeProperty('height');
+                document.body.style.removeProperty('overflow-y');
+            }
+        }, 3200);
+    }, []);
+
     return (
         <div>
             <Head>
@@ -13,10 +38,12 @@ export default function Home() {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
 
+            <Loading />
             <main className="pageMargin">
-                {/* main section components will go here */}
+                <SideBar />
                 <HomeSection />
                 <AboutUs />
+                <Footer />
             </main>
         </div>
     );

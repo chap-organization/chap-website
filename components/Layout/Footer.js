@@ -1,7 +1,7 @@
-import ContactForm from "../general/ContactForm";
-import FooterInfo from "./FooterInfo";
+import ContactForm from '../General/ContactForm';
+import FooterInfo from './FooterInfo';
 
-import styles from "../../styles/Components/Layout/Footer.module.css"
+import styles from '../../styles/Components/Layout/Footer.module.css';
 
 export default function Footer() {
     return (

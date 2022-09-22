@@ -1,17 +1,30 @@
 .SideBar {
     position: fixed;
     height: 100%;
-    right: 0;
     border-left: 2px solid var(--chap-red);
     border-right: 2px solid var(--chap-black);
-    width: 11rem;
+    right: 0rem;
+    width: 8rem;
+    animation: slideBar 6s linear 0s;
+}
+
+@keyframes slideBar {
+    0% {
+        transform: translateX(100%)
+    }    
+    70% {
+        transform: translateX(100%)
+    }    
+    100% {
+        transform: translateX(0%)
+    }    
 }
 
 .TerminalIcon {
     background-color: transparent;
     border: none;
     color: var(--chap-red);
-    font-size: 64px;
+    font-size: 50px;
     font-weight: bold;
     font-family: arial;
 }

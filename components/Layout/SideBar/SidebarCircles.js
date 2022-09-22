@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import styles from '../../styles/Components/Home/SidebarCircles.module.css';
+import styles from '../../../styles/Components/Layout/SideBar/SidebarCircles.module.css';
 
 export default function SidebarCircles(props) {
     const sections = Object.entries(props.sections);

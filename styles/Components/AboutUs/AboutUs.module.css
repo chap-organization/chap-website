@@ -1,5 +1,6 @@
 .container{
     background-color: var(--chap-red);
+    min-height: 100vh;
 }
 
 .header > h1{

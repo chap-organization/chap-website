@@ -1,7 +1,7 @@
-import styles from '../../styles/Components/Layout/SideBar.module.css';
+import styles from '../../../styles/Components/Layout/SideBar/SideBar.module.css';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import { useState } from 'react';
-import SidebarCircles from '../Home/SidebarCircles';
+import SidebarCircles from './SidebarCircles';
 
 export default function SideBar() {
     const [show, setShow] = useState(false);

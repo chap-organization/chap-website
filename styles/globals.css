@@ -28,12 +28,13 @@ body {
   margin: 0;
   font-family: var(--chap-font), sans-serif, Helvetica !important;
   font-size: 62.5% !important; /* Now the base font size is 10px, use rems in decimal to get desired size */
+  overflow-x: hidden;
 }
 
 
 @media only screen and (min-width: 768px) {
   .pageMargin {
-    margin-right: 110px;
+    margin-right: 8rem;
   }
 }
 
