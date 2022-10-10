@@ -1,0 +1,27 @@
+{
+  "name": "chap-website",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.1",
+    "chart.js": "^3.9.1",
+    "chartjs-plugin-datalabels": "^2.1.0",
+    "chartjs-plugin-deferred": "^2.0.0",
+    "next": "12.2.3",
+    "react": "18.2.0",
+    "react-bootstrap": "^2.5.0",
+    "react-chartjs-2": "^4.3.1",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@svgr/webpack": "^6.3.1",
+    "eslint": "8.21.0",
+    "eslint-config-next": "12.2.3"
+  }
+}
