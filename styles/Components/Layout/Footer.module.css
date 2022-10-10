@@ -1,0 +1,23 @@
+
+.container{
+    padding: 50px 0px;
+    margin-top: 0px;
+}
+
+.sectionContainer {
+    height: 100vh;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.contact {
+    width: 95%;
+}
+
+.info {
+    width: 80%;
+}
+
