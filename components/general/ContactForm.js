@@ -1,10 +1,10 @@
 import { Collapse } from 'react-bootstrap';
 import styles from '../../styles/Components/General/ContactForm.module.css';
-import { useState } from "react";
+import { useState } from 'react';
 
 export default function ContactForm() {
     const [open, setOpen] = useState(false);
-    const [joinUs, setJoinUs] = useState("Join us");
+    const [joinUs, setJoinUs] = useState('Join us');
 
     function handleJoinClick(type) {
         setJoinUs(type);
@@ -39,7 +39,7 @@ export default function ContactForm() {
     return (
         <div>
             <div className="row">
-                <p className={styles.joinText} id="contactus">
+                <p className={styles.joinText} id="contact-us">
                     Shoot us a <br /> message!
                 </p>
             </div>
@@ -54,20 +54,26 @@ export default function ContactForm() {
                             </option>
                         </select> */}
                         <button
-                          type='button'
-                          onClick={() => setOpen(!open)}
-                          aria-controls="example-collapse-text"
-                          aria-expanded={open}
+                            type="button"
+                            onClick={() => setOpen(!open)}
+                            aria-controls="example-collapse-text"
+                            aria-expanded={open}
                         >
-                          {joinUs}
+                            {joinUs}
                         </button>
                         <Collapse className={styles.collapse} in={open}>
-                          <div id="example-collapse-text">
-                            <h3>Subject of message</h3>
-                            <p onClick={() => handleJoinClick("Join us")}>Join us</p>
-                            <p onClick={() => handleJoinClick("General")}>General</p>
-                            <p onClick={() => handleJoinClick("Sponsor")}>Sponsor</p>
-                          </div>
+                            <div id="example-collapse-text">
+                                <h3>Subject of message</h3>
+                                <p onClick={() => handleJoinClick('Join us')}>
+                                    Join us
+                                </p>
+                                <p onClick={() => handleJoinClick('General')}>
+                                    General
+                                </p>
+                                <p onClick={() => handleJoinClick('Sponsor')}>
+                                    Sponsor
+                                </p>
+                            </div>
                         </Collapse>
                     </div>
                     <div className="row g-4 pt-4">

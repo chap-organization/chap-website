@@ -1,14 +1,10 @@
 
 .container{
     padding: 50px 0px;
-<<<<<<< HEAD
-=======
-    margin-top: 0px;
 }
 
 .sectionContainer {
     height: 100vh;
->>>>>>> 38cd357 (Working on transition when loading in and name change)
 }
 
 .center {

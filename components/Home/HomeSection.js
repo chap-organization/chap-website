@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 export default function HomeSection() {
     return (
-        <div id="homepage" className={styles.container}>
+        <div id="home" className={styles.container}>
             <div className={styles.img}>
                 <Image
                     alt="CHAP Logo"

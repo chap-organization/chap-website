@@ -31,90 +31,29 @@ export default function LoadingPage() {
         <div
             id="loading-page"
             className={styles.container}
-<<<<<<< HEAD
-<<<<<<< HEAD
-            style={{ display: time > 4300 && 'none' }}
-        >
-            {time > 1000 && time < 1500 ? (
-=======
             style={{ display: time > 2500 && 'none' }}
         >
             {time > 500 && time < 800 ? (
->>>>>>> 38cd357 (Working on transition when loading in and name change)
-=======
-            style={{ display: time > 2500 && 'none' }}
-        >
-            {time > 500 && time < 800 ? (
-=======
-            style={{ display: time > 4300 && 'none' }}
-        >
-            {time > 1000 && time < 1500 ? (
->>>>>>> 3652f12 (Moving Some Things Around and Added Some Transitions)
->>>>>>> 744992a (Moving Some Things Around and Added Some Transitions)
                 <CPressed className={styles.key} />
             ) : (
                 <CIdle className={styles.key} />
             )}
-<<<<<<< HEAD
-<<<<<<< HEAD
-            {time > 1600 && time < 2100 ? (
-=======
             {time > 900 && time < 1200 ? (
->>>>>>> 38cd357 (Working on transition when loading in and name change)
-=======
-            {time > 900 && time < 1200 ? (
-=======
-            {time > 1600 && time < 2100 ? (
->>>>>>> 3652f12 (Moving Some Things Around and Added Some Transitions)
->>>>>>> 744992a (Moving Some Things Around and Added Some Transitions)
                 <HPressed className={styles.key} />
             ) : (
                 <HIdle className={styles.key} />
             )}
-<<<<<<< HEAD
-<<<<<<< HEAD
-            {time > 2200 && time < 2700 ? (
-=======
             {time > 1300 && time < 1600 ? (
->>>>>>> 38cd357 (Working on transition when loading in and name change)
-=======
-            {time > 1300 && time < 1600 ? (
-=======
-            {time > 2200 && time < 2700 ? (
->>>>>>> 3652f12 (Moving Some Things Around and Added Some Transitions)
->>>>>>> 744992a (Moving Some Things Around and Added Some Transitions)
                 <APressed className={styles.key} />
             ) : (
                 <AIdle className={styles.key} />
             )}
-<<<<<<< HEAD
-<<<<<<< HEAD
-            {time > 2800 && time < 3200 ? (
-=======
             {time > 1700 && time < 2000 ? (
->>>>>>> 38cd357 (Working on transition when loading in and name change)
-=======
-            {time > 1700 && time < 2000 ? (
-=======
-            {time > 2800 && time < 3200 ? (
->>>>>>> 3652f12 (Moving Some Things Around and Added Some Transitions)
->>>>>>> 744992a (Moving Some Things Around and Added Some Transitions)
                 <PPressed className={styles.key} />
             ) : (
                 <PIdle className={styles.key} />
             )}
-<<<<<<< HEAD
-<<<<<<< HEAD
-            {time > 3300 && time < 3700 ? (
-=======
             {time > 2100 && time < 2400 ? (
->>>>>>> 38cd357 (Working on transition when loading in and name change)
-=======
-            {time > 2100 && time < 2400 ? (
-=======
-            {time > 3300 && time < 3700 ? (
->>>>>>> 3652f12 (Moving Some Things Around and Added Some Transitions)
->>>>>>> 744992a (Moving Some Things Around and Added Some Transitions)
                 <RedBirdPressed className={styles.key} />
             ) : (
                 <RedBirdIdle className={styles.key} />

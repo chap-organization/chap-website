@@ -9,7 +9,13 @@ export default function SideBar() {
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
 
-    const sectionIDs = ['#homepage', '#aboutus', '#contactus'];
+    const sectionIDs = [
+        '#home',
+        '#about-us',
+        '#meet-our-team',
+        '#projects-and-awards',
+        '#contact-us',
+    ];
 
     return (
         <nav className={styles.SideBar}>
