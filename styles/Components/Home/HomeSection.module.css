@@ -9,7 +9,10 @@
     height: 100vh;
     flex-direction: column;
     background-color: var(--chap-red);
+<<<<<<< HEAD
     animation: slideInFromLeft 2s linear 2.5s;
+=======
+>>>>>>> 8972bb45822761f31fefc350c220859c7446fdf0
 }
 
 @keyframes slideInFromLeft {

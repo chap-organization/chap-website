@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    background-color: var(--chap-red);
+    color: var(--chap-white);
+    font-size: var(--heading);
+    text-underline-offset: 8px;
+    line-height: 75px;
+    position: absolute;
+}
+
+.h1 {
+    margin: 7.5px;
+    margin-left: 15px;
+}

@@ -1,0 +1,12 @@
+.container {
+    max-width: 75%;
+    color: var(--chap-red);
+}
+
+.question {
+    font-size: var(--xl);
+}
+
+.answer {
+    font-size: var(--lg);
+}

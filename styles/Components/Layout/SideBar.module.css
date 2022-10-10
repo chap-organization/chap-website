@@ -1,0 +1,84 @@
+.SideBar {
+    position: fixed;
+    height: 100%;
+    right: 0;
+    border-left: 2px solid var(--chap-red);
+    border-right: 2px solid var(--chap-black);
+    width: 11rem;
+}
+
+.TerminalIcon {
+    background-color: transparent;
+    border: none;
+    color: var(--chap-red);
+    font-size: 64px;
+    font-weight: bold;
+    font-family: arial;
+}
+
+.PageTitle {
+    background-color: transparent;
+    border: none;
+    color: var(--chap-red);
+    font-size: var(--xxl);
+    font-weight: bold;
+}
+
+.PageTitle:not(:last-child) {
+    margin-bottom: 2rem;
+}
+
+.TerminalIcon:hover,
+.TerminalIcon:active,
+.TerminalIcon:focus,
+.TerminalIcon:visited {
+    background-color: transparent;
+    border: none;
+}
+
+.link {
+    color: var(--chap-red);
+    text-decoration: none;
+    transition: 300ms ease-in-out;
+    cursor: pointer;
+}
+.link:hover {
+    color: var(--chap-red);
+    text-decoration: underline;
+}
+
+#joinUsButton {
+    margin-top: 20px;
+}
+
+#joinUsButton a {
+    background-color: var(--chap-red);
+    padding: 10px;
+    color: var(--chap-white);
+    margin-top: 10px;
+    border-radius: 40px;
+    border: 2px solid var(--chap-red);
+}
+
+#joinUsButton a:hover {
+    color: var(--chap-red);
+    background-color: var(--chap-white);
+    text-decoration: none;
+}
+
+@media screen and (max-width: 767px) {
+    .SideBar {
+        height: 110px;
+        width: 110px;
+        transform: scale(0.60);
+        background-color: var(--chap-white);
+        border-radius: 50%;
+        z-index: 1;
+        border: 2px solid var(--chap-red);
+        margin: 10px 15px 0 0;
+    }
+
+    #outsideSidebarCircles {
+        display: none;
+    }
+}
