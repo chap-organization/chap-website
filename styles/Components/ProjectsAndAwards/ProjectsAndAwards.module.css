@@ -1,0 +1,20 @@
+.header > h1{
+    color: var(--chap-white);
+    font-size: var(--heading);
+    padding: 25px 25px 30px 50px;
+    height: var(--heading-height);
+    background: var(--chap-red);
+}
+
+.container {
+    height: 100vh;
+    padding: 4rem 18rem;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+
+.flexElement {
+    flex: 1 1;
+}

@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from 'react';
-import styles from '../../../styles/Components/Layout/SideBar/SidebarCircles.module.css';
+import React, { useEffect } from 'react';
+import styles from '../../../styles/Components/Layout/SideBar/SideBarCircles.module.css';
 
-export default function SidebarCircles(props) {
+export default function SideBarCircles(props) {
     const sections = Object.entries(props.sections);
     function handleScroll() {
         sections.map(([index, value]) => {

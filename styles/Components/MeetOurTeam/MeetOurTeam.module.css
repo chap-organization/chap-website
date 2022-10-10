@@ -1,185 +1,44 @@
-@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+.container {
+  height: 100vh;
+}
 
 .header {
   display: flex;
   height: 90px;
   width: 100%;
-  background-color: #E4002B;
+  background-color: var(--chap-red);
   align-items: center;
   justify-content: left;
   margin-bottom: 10px;
 }
 
 .title {
-  color: white;
-  font-size: 50px;
-  font-family: Audiowide;
+  color: var(--chap-white);
+  font-size: var(--heading);
+  padding: 25px 25px 30px 50px;
+  height: var(--heading-height);
+  background: var(--chap-red);
 }
 
 .header2 {
   display: flex;
-  height: 80px;
   width: 100%;
-  align-items: left;
-  justify-content: left;
+  justify-content: center;
   padding-left: 15px;
   padding-bottom: 0;
-  /* border-style: solid;
-  border-left: none;
-  border-right: none; */
 }
 
 .title2 {
-  font-size: 50px;
-  font-family: Audiowide;
+  font-size: var(--xl)
 }
 
 .section {
-  margin-left: 50px;
-  margin-left: 50px;
-}
-
-
-.flipcardclicked {
-  background-color: transparent;
-  width: 250px;
-  height: 300px;
-  border: 1px solid #f1f1f1;
-  perspective: 1000px;
-  /* Remove this if you don't want the 3D effect */
-}
-
-.flipcard {
-  background-color: transparent;
-  width: 250px;
-  height: 300px;
-  border: 1px solid #f1f1f1;
-  perspective: 1000px;
-  /* Remove this if you don't want the 3D effect */
-  display: inline-block;
-  margin: 20px;
-}
-
-/* This container is needed to position the front and back side */
-.flipcardinner {
-  position: relative;
-  width: 250px;
-  height: 300px;
-  text-align: center;
-  transition: transform 0.8s;
-  transform-style: preserve-3d;
-}
-
-/* Do an horizontal flip when you move the mouse over the flip box container */
-.flipcardclicked .flipcardinner {
-  transform: rotateY(180deg);
-}
-
-/* Position the front and back side */
-.flipcardfront,
-.flipcardback {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  -webkit-backface-visibility: hidden;
-  /* Safari */
-  backface-visibility: hidden;
-}
-
-/* Style the front side (fallback if image is missing) */
-.flipcardfront {
-  background-color: #bbb;
-  color: black;
-  box-shadow: 0px 0px 0px 0px;
-}
-
-.flipcardfront:hover {
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-}
-
-.frontimage {
-  background-position: center;
-  /* Center the image */
-  background-color: #cccccc;
-  background-repeat: no-repeat;
-  /* Do not repeat the image */
-  background-size: cover;
-  /* Resize the background image to cover the entire container */
-  height: 250px;
-  width: 245px;
-  border: 1px solid white;
-  outline: 1px solid #bbb;
-}
-
-.frontname {
-  font-size: 15px;
-  font-family: Audiowide;
-  color: white;
-  text-align: left;
-  margin-left: 5px;
-  margin-top: 3px;
-}
-
-.frontposition {
-  font-size: 10px;
-  font-family: Audiowide;
-  color: white;
-  text-align: left;
-  margin-left: 5px;
-}
-
-/* Style the back side */
-.flipcardback {
-  background-color: lightgray;
-  transform: rotateY(180deg);
-
-}
-
-.backname {
-  margin-top: 10px;
-  color: black;
-  font-family: Audiowide;
-}
-
-.backposition {
-  margin-bottom: 10px;
-  color: black;
-  font-family: Audiowide;
-  font-size: 10px;
-}
-
-.backcontent {
-  overflow-y: scroll;
-  height: 175px;
-  background: lightgray;
-  width: 235px;
-  font-family: Audiowide;
-  font-size: 11px;
-}
-
-.backcontent::-webkit-scrollbar {
-  width: 5px;
-}
-
-.backcontent::-webkit-scrollbar-track {
-  display: none;
-}
-
-.backcontent::-webkit-scrollbar-thumb {
-  background-color: white;
-  outline: 1px solid black;
-  border-radius: 10px;
-}
-
-.imageContainer {
+  padding: 0rem 5rem;
   display: flex;
-  text-align: center;
-  justify-content: left;
-  margin-top: 10px;
-}
-
-.logo {
-  margin-top: 5px;
-  margin-right: 5px;
-  margin-left: 5px;
+  justify-content: center;
+  overflow-x: scroll;
+  padding-bottom: 17px;
+  /* Increase/decrease this value for cross-browser compatibility */
+  box-sizing: content-box;
+  /* So the width will be 100% + 17px */
 }

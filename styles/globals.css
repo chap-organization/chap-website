@@ -5,6 +5,7 @@
   --chap-white: #FFFFFF;
   --chap-grey: #D9D9D9;
   --chap-shadow: #C3C3C3;
+  --chap-blue: #017BFF;
   --xs: 1.2rem;
   --sm: 1.6rem;
   --med: 2rem;
@@ -12,6 +13,7 @@
   --xl: 2.8rem;
   --xxl: 3.2rem;
   --heading: 3.6rem;
+  --heading-height: 9rem;
 }
 
 /* Fonts */

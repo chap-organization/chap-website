@@ -2,11 +2,11 @@ import React, { useEffect } from 'react';
 import Head from 'next/head';
 import HomeSection from '../components/Home/HomeSection';
 import AboutUs from '../components/AboutUs/AboutUs';
-import Loading from '../components/Loading/Loading';
+import LoadingPage from '../components/LoadingPage/LoadingPage';
 import SideBar from '../components/Layout/SideBar/SideBar';
 import Footer from '../components/Layout/Footer';
 import MeetOurTeam from '../components/MeetOurTeam/MeetOurTeam';
-import ProjectsContainer from '../components/ProjectsAwards/ProjectsContainer';
+import ProjectsAndAwards from '../components/ProjectsAndAwards/ProjectsAndAwards';
 export default function Home() {
     function handleLoad() {
         document.body.style.height = '100vh'; // ensures you cant scroll past loading page
@@ -40,13 +40,13 @@ export default function Home() {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
 
-            <Loading />
+            <LoadingPage />
             <main className="pageMargin">
                 <SideBar />
                 <HomeSection />
                 <AboutUs />
                 <MeetOurTeam />
-                <ProjectsContainer />
+                <ProjectsAndAwards />
                 <Footer />
             </main>
         </div>

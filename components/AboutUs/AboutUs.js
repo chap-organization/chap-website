@@ -3,13 +3,13 @@ import Chart from './Chart.js';
 
 const AboutUs = () => {
     return (
-        <div className={`${styles.container}`}>
+        <div className={styles.container}>
             <div className={styles.header}>
                 <h1 id="about-us"> ABOUT US </h1>
             </div>
             <div className={styles.content}>
                 <div className={styles.image}>
-                    <p className="text-center"> image </p>
+                    <img src="/assets/Team.jpeg" />
                 </div>
                 <div className={`${styles.bottomContent} row`}>
                     <div className={`${styles.bottomText} col-lg-6`}>
