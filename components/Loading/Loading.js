@@ -31,29 +31,51 @@ export default function LoadingPage() {
         <div
             id="loading-page"
             className={styles.container}
+<<<<<<< HEAD
             style={{ display: time > 4300 && 'none' }}
         >
             {time > 1000 && time < 1500 ? (
+=======
+            style={{ display: time > 2500 && 'none' }}
+        >
+            {time > 500 && time < 800 ? (
+>>>>>>> 38cd357 (Working on transition when loading in and name change)
                 <CPressed className={styles.key} />
             ) : (
                 <CIdle className={styles.key} />
             )}
+<<<<<<< HEAD
             {time > 1600 && time < 2100 ? (
+=======
+            {time > 900 && time < 1200 ? (
+>>>>>>> 38cd357 (Working on transition when loading in and name change)
                 <HPressed className={styles.key} />
             ) : (
                 <HIdle className={styles.key} />
             )}
+<<<<<<< HEAD
             {time > 2200 && time < 2700 ? (
+=======
+            {time > 1300 && time < 1600 ? (
+>>>>>>> 38cd357 (Working on transition when loading in and name change)
                 <APressed className={styles.key} />
             ) : (
                 <AIdle className={styles.key} />
             )}
+<<<<<<< HEAD
             {time > 2800 && time < 3200 ? (
+=======
+            {time > 1700 && time < 2000 ? (
+>>>>>>> 38cd357 (Working on transition when loading in and name change)
                 <PPressed className={styles.key} />
             ) : (
                 <PIdle className={styles.key} />
             )}
+<<<<<<< HEAD
             {time > 3300 && time < 3700 ? (
+=======
+            {time > 2100 && time < 2400 ? (
+>>>>>>> 38cd357 (Working on transition when loading in and name change)
                 <RedBirdPressed className={styles.key} />
             ) : (
                 <RedBirdIdle className={styles.key} />

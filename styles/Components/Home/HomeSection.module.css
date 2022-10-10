@@ -9,7 +9,11 @@
     height: 100vh;
     flex-direction: column;
     background-color: var(--chap-red);
+<<<<<<< HEAD
     animation: slideInFromLeft 2s linear 4s;
+=======
+    animation: slideInFromLeft 2s linear 2.5s;
+>>>>>>> 38cd357 (Working on transition when loading in and name change)
 }
 
 @keyframes slideInFromLeft {
