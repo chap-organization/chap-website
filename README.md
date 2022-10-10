@@ -1,30 +1,35 @@
-# CHAP Website
+#### CHAP website
 
-## NEXTJS
+### Developers:
+All members in CHAP website team channel. 
 
-### Requirements
+### Scope
+This website will be the front face of our club as it will be the first thing we redirect new members to. It will contain various sections related to our members, our projects, our awards and much more!
 
-Node.js, NPM
+### Tech Stack
 
-### Development
+As this project is pure front-end for now, the tech stack is constrained to [ReactJs](https://reactjs.org/) boostraped with [NextJs](https://nextjs.org/). This makes our developement and deployment very easy as we can deploy with Vercel. 
 
-Make sure the proper node_modules are installed my running the following command:
+### how to run
+Dependencies: Npm, Nodejs.  <br/>
+Set up environment: `npm install` <br/>
+run development server: `npm run dev` <br/>
 
-`npm install`
+### File System
 
-To start a development server run the following command:
+- .next (Next modules, Ignore)
+- components
+    - <All pages have a folder>
+    - General (General react components)
+    - Layout (Layout file, Sidebar, Footer)
+- pages
+    - Index (Home page)
+    - <All pages have file> (A react component that represents a hmtl file)
+ - public (public assets downloaded directly in the browser, like images and favicon)
+ - styles
+    - Components (folder matches components folder and should have a style moudule for every react component)
+    - globals.module.css (Global styles)
 
-`npm run dev`
 
-### Directory Layout
-
--components: (React components) directory name does not matter
-
--pages: (autoroutes to /"filename", also react components) directory name does matter
-
--public: (images and assets, reference with /) directory name does matter
-
--styles: (css styles) directory name does not matter
-
-
+for more information on how NextJs' filesystem works please consult the [routing documentation](https://nextjs.org/docs/routing/introduction) 
 
