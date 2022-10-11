@@ -96,6 +96,22 @@
     justify-content: flex-end;
 }
 
+.clearContainer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.clear {
+    background: none;
+    cursor: pointer;
+}
+
+.clear:hover {
+    background: none;
+    text-decoration: underline;
+}
+
 .submit {
     background-color: var(--chap-red);
     border: 0px solid;

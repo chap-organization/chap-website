@@ -10,7 +10,7 @@ export default function SideBar() {
     const handleShow = () => setShow(true);
 
     const sectionIDs = [
-        '#home',
+        '#homepage',
         '#about-us',
         '#meet-our-team',
         '#projects-and-awards',

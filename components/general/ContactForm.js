@@ -1,6 +1,8 @@
 import { Collapse } from 'react-bootstrap';
 import styles from '../../styles/Components/General/ContactForm.module.css';
 import { useState } from 'react';
+import emailjs from "@emailjs/browser";
+
 
 export default function ContactForm() {
     const [open, setOpen] = useState(false);
@@ -10,9 +12,21 @@ export default function ContactForm() {
         setJoinUs(type);
         setOpen(!open);
     }
+    function clearForm() {
+        const fields = document.querySelectorAll(
+            `.${styles.form} input`
+        );
+        const message = document.querySelector(
+            `.${styles.form} textarea`
+        );
+        message.value = "";
+        for (const field of fields) {
+            field.value = "";
+        }
+        
+    }
 
-    function handleSubmit() {
-        const type = document.querySelector(`.${styles.form} select`).value;
+    async function handleSubmit() {
         const [firstName, lastName, email, phone] = document.querySelectorAll(
             `.${styles.form} input`
         );
@@ -22,18 +36,37 @@ export default function ContactForm() {
 
         // Local input checks
         // TODO
+        let ipinfo = null;
+        try {
+            const response = await fetch("https://ipinfo.io/json");
+            ipinfo = await response.json();
+        }catch (e) {
+            console.log(e);
+        }
 
         const outMessage = {
-            type,
+            type: joinUs,
             firstName: firstName.value,
             lastName: lastName.value,
             email: email.value,
             phone: phone.value,
             message,
+            ip: ipinfo.ip,
+            hostname: ipinfo.hostname,
+            location: `${ipinfo.city}, ${ipinfo.region}, ${ipinfo.country}`,
+            loc: ipinfo.loc,
+            org: ipinfo.org,
+            postal: ipinfo.postal,
+            timezone: ipinfo.timezone,
         };
-
-        // send email here
-        // TODO
+        // TODO: hide keys in env
+        // process.env.NEXT_PUBLIC_SERVICE_KEY, process.env.NEXT_PUBLIC_TEMPLATE_ID, jsonData, process.env.NEXT_PUBLIC_KEY
+        emailjs.send("service_eljg667", "template_tror28r", outMessage, "U5jewIpjEzO3Ms7T8")
+        .then((result) => {
+            console.log(result.text);
+        }, (error) => {
+            console.log(error.text);
+        });
     }
 
     return (
@@ -115,7 +148,16 @@ export default function ContactForm() {
                                 placeholder="Why do you want to join?"
                             />
                         </div>
-                        <div className={`col-12 ${styles.submitContainer}`}>
+                        <div className={`col-6 ${styles.clearContainer}`}>
+                            <h3
+                                onClick={clearForm}
+                                type="button"
+                                className={styles.clear}
+                            >
+                                clear
+                            </h3>
+                        </div>
+                        <div className={`col-6 ${styles.submitContainer}`}>
                             <button
                                 onClick={handleSubmit}
                                 type="button"
