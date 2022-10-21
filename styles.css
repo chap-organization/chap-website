@@ -1,0 +1,168 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+.cont {
+    margin: 0;
+    position: relative;
+}
+
+.titleContainer {
+    width: 100%;
+    padding-top: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.titleContainer h2 {
+    font-size: 58px;
+    color: #E4002B;
+}
+
+.titleContainer p {
+    font-size: 30px;
+    color: #E4002B;
+}
+
+@media only screen and (max-width: 1121px) {
+    .titleContainer p {
+        font-size: 24px;
+    }
+
+    .titleContainer h2 {
+        font-size: 40px;
+    }
+    
+}
+
+
+.balls {
+    position: absolute;
+    border-radius: 50%;
+    /* background-color: #E4002B; */
+    background-color: rgba(228, 0, 43, 0.75);
+}
+
+.ball1 {
+    width: 100px;
+    height: 100px;
+    animation: ball1 30s linear infinite;
+}
+
+.ball2 {
+    width: 150px;
+    height: 150px;
+    animation: ball2 30s linear infinite;
+}
+
+.ball3 {
+    width: 120px;
+    height: 120px;
+    animation: ball3 40s linear infinite;
+}
+
+.ball4 {
+    width: 80px;
+    height: 80px;
+    animation: ball4 40s linear infinite;
+}
+
+@keyframes ball1 {
+    0% {
+        top: 20%;
+        left: -7%;
+    }
+    25% {
+        top: 25%;
+        left: 20%;
+    }
+    50% {
+        top: 23%;
+        left: 50%;
+    }
+    75% {
+        top: 20%;
+        left: 80%;
+    }
+    100% {
+        top: 10%;
+        left: 107%;
+    }
+    
+}
+
+@keyframes ball2 {
+    0% {
+        top: 70%;
+        left: 107%;
+    }
+    25% {
+        top: 65%;
+        left: 80%;
+    }
+    50% {
+        top: 60%;
+        left: 50%;
+    }
+    75% {
+        top: 60%;
+        left: 20%;
+    }
+    100% {
+        top: 70%;
+        left: -7%;
+    }
+    
+}
+
+@keyframes ball3 {
+    0% {
+        top: 150%;
+        left: 107%;
+    }
+    25% {
+        top: 145%;
+        left: 80%;
+    }
+    50% {
+        top: 140%;
+        left: 50%;
+    }
+    75% {
+        top: 145%;
+        left: 20%;
+    }
+    100% {
+        top: 150%;
+        left: -7%;
+    }
+    
+}
+
+@keyframes ball4 {
+    0% {
+        top: -7%;
+        left: -7%;
+    }
+    25% {
+        top: 20%;
+        left: 20%;
+    }
+    50% {
+        top: 70%;
+        left: 50%;
+    }
+    75% {
+        top: 110%;
+        left: 80%;
+    }
+    100% {
+        top: 150%;
+        left: 107%;
+    }
+    
+}
